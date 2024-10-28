@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           registry-url: https://registry.npmjs.org/
-          node-version: 16.x
+          node-version: 20.x
 
       - name: Setup
         run: npm i -g @antfu/ni
