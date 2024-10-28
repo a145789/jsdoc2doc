@@ -12,6 +12,7 @@ function withI18n(items: { link: string; text: string }[], locale: 'zh') {
 
 
 export default defineConfig({
+  base: "/jsdoc2doc/",
   title: 'Rattail',
   description: 'A utilities library for front-end developers, lightweight and ts-friendly',
   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
